@@ -41,7 +41,7 @@
         <h5 class="card-title">
           <span>Creme Brulee Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <button type="button" onclick="addproduct(0)" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@
         <h5 class="card-title">
           <span>White Choco Orea Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <button type="button" onclick="addproduct(1)" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -67,12 +67,20 @@
         <h5 class="card-title">
           <span>Mixed Dates Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <button type="button" onclick="addproduct(2)" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
 </div>
 </div>
+
+<ul id="list">
+
+  <li id="total"></li>
+</ul>
+
+<a href="./from.html"> Suggestion </a>
+
 <!-- بونص 👑 -->
 <div id="loader">
   <!-- قم بإضافة أيقونة التحميل هنا -->
@@ -90,6 +98,7 @@
   }
   */
 </script>
+<script src="./ckies.js"></script>
 </body>
 
 </html>
